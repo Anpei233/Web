@@ -1,0 +1,406 @@
+body{
+    font-family: sans-serif;
+    font-size: 100%;
+    word-spacing: 5px;
+    width: 100%;
+}
+h1{
+    font-weight: lighter;
+    font-size: 3em;
+    letter-spacing: 1px;
+    margin: 0 auto;  /*不太明白什么意思*/
+}
+.div1{
+    background-image: url("images01/前端学院设计图_01.png");
+    position: relative;/*不太明白为啥要相对位置*/
+    width: 100%;
+    height: 989px;
+    font-weight: lighter;
+    font-size: 1em;
+}
+.div1_1{
+    color: white;
+    text-align: center;
+    top: 15%;
+    width: 100%;
+    height: 15%;
+    position: absolute;
+}
+.div1_2{
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    color: rgb(184, 182, 182);
+    
+}
+.div1_3{
+    border: 1px rgb(184, 182, 182) solid ;
+    width: 60%;
+    height: 20%;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    text-align: center;
+}
+.div1_3_1{
+    width: 100%;
+    height: 25%;
+    top:20%;
+    line-height: 10%;
+    position: absolute;
+    color: white;
+    text-align: center;
+}
+.div1_3_1_1{
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 0;
+    color: rgb(218, 214, 214);
+    text-align: center;
+}
+.div1_3_1_2{
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    color: rgb(143, 142, 142);
+    text-align: center;
+}
+.div1_3_2{
+    width: 94%;
+    height: 25%;
+    top: 55%;
+    left: 3%;
+    position: absolute;
+    text-align: center;
+    line-height: 10%;
+    color: white;
+}
+.div1_3_2_1{
+    width: 35%; /* 宽和高是相对于上一个div？*/
+    height: 100%;
+    position: relative;
+    border: 1px rgb(184, 182,182 ) solid;
+    margin-right: 5%;
+    float: left;/* 为啥浮动左边但实际上看着在右边呢*/
+    color: rgb(218, 214, 214);
+    font-size: large;/* 字体变大？*/
+}
+input[type="text"]{
+    background: none;
+}
+.div1_3_2_2{
+    width: 16%;
+    height: 100%;
+    position: relative; /* 相对，绝对分不清怎么用*/
+    float: left;
+    color: black;
+    background-color: white;
+    line-height: 50%;
+    font-weight: lighter;
+    
+}
+
+.div2{
+    width: 100%;
+    height: 725px;
+    position: relative;
+    font-weight: lighter;
+    font-size: 1em;
+    text-align: center;
+}
+.div2_1{
+    width: 100%;
+    height: 20%; 
+    color: black;
+    line-height: 50%;
+}
+.div2_1 h4{
+    position: absolute;
+    top: 15%;
+    left: 40%;
+}.div2_2{
+    width: 100%;
+    height: 20%;
+    
+}
+.div2_3{
+    width: 100%;
+    height: 60%;
+    position: relative;
+}
+.div2_3_1{
+    width: 50%;
+    height: 35%;
+    position: relative;
+    margin-top: 3%;
+    right: 5%;
+    float: left;
+}
+.div2_3_2{
+    width: 50%;
+    height: 35%;
+    position: relative;
+    margin-top: 3%;
+    left:  5%;
+    float: left;
+}
+.div2_3_3{
+    width: 50%;
+    height: 35%;
+    position: relative;
+    margin-top: 3%;
+    right:  5%;
+    float: left;
+}
+.div2_3_4{
+    width: 50%;
+    height: 35%;
+    position: relative;
+    margin-top: 3%;
+    left: 5%;
+    float: left;
+}
+.div2_3_text{
+  text-align: left;
+  width: 60%;
+  height: 100%;
+  float: right;
+  font-weight: lighter;
+  color: rgb(143, 142, 142);
+  font-size: large;
+}
+.div2_3_img{
+    float: right;
+    height: 100%;
+    width: 10%;
+    position: relative;
+    
+}
+.div2_3 strong{
+    color: black;
+
+}
+.div3{
+    background-image: url("images01/前端学院设计图_03.png");
+    width: 100%;
+    height: 800px;
+    position: relative;
+    font-weight: lighter;
+    font-size: 1em;
+}
+.div3_1{
+    width:100% ;
+    height: 20%;
+    position: relative;
+    text-align: left;
+    left:  15%;
+    top: 20%;
+    color: white;
+    font-weight: lighter;
+    font-size: large;
+}
+
+.div3_2{
+    width: 100%;
+    height: 30%;
+    position: relative;
+    left: 15%;
+    top: 27%;
+}
+.div3_2_1 h5{
+    color: rgb(226, 225, 225) ;
+    font-weight: lighter;
+    font-size: large;
+    line-height: 30px;
+
+}
+.div3_3{
+    width: 80%;
+    margin-left: 15%;
+    height: 24%;
+}
+.div3_3_1{
+    top: 80%;
+    width: 30%;
+    height: 30%;
+    position: relative;
+    float: left;
+    color: black;
+    background-color: white;
+    line-height: 50%;
+    font-weight: lighter;
+    
+}
+.div3_3_2{
+    border: 1px solid rgb(184, 182, 182);
+    top: 80%;
+    width: 30%;
+    height: 30%;
+    position: relative;
+    float: left;
+    color: white;
+    background: none;
+    line-height: 50%;
+    font-weight: lighter;
+}
+.div4_1{
+    width: 100%;
+    height: 120.5px;
+}
+
+.div4_2{
+    width: 100%;
+    height: 120.5px;
+}
+.div4_3{
+    width: 100%;
+    height: 80.5px;
+}
+.div4_3_1{
+    float: left;
+    width: calc(100% / 3);
+    height: 100%;
+}
+.div4_4{
+    width: 100%;
+    height: 281px;
+}
+.div4_4_1{
+    float: left;
+    width: calc(100% / 3);
+    height: 100%;
+}
+.div5{
+    width: 100%;
+    height: 990px;
+    position: relative;
+    font-weight: lighter;
+    font-size: 1em;
+}
+.div5_1{
+    width: 100%;
+    height: 50%;
+    position: relative;
+
+}
+.div5_1_1{
+    width: 60%;
+    height: 100%;
+    
+}
+.div5_1_text{
+    width: 20%;
+    height: 60%;
+    margin-top: 10%;
+    margin-left: 9%;
+    text-align: left;
+}
+.div5_2{
+    height: 50%;
+    width: 100%;
+}
+.div5_2_text{
+    width: 20%;
+    height: 60%;
+    margin-top: 5%;
+    margin-left: 20%;
+    text-align: left;
+}
+    
+.div6{
+    width: 100%;
+    height: 990px;
+    position:relative;
+    font-size: lem;
+    font-weight: lighter;
+}
+.div6_1{
+    height: calc(100% / 4.5);
+    width: 100%;
+    text-align: center;
+}
+.div6_1_text{
+    height: auto;
+    width: 100%;
+    padding-top: 3%;
+}
+.div6_1_text2{
+   height: auto;
+   width: 100%;
+   padding-top: 3%;
+}
+.div6_2{
+    height: calc(100% / 4.5 * 1.5);
+    width: 100%;
+}
+.div6_2_1{
+    height: 100%;
+    width: 50%;
+    position: relative;
+    float: left;
+}
+.div6_3{
+    height: calc(100% / 4.5 * 1.5);
+    width: 100%;
+}
+
+.div6_4{
+    height: calc(100% / 4.5 * 0.5);
+    width: 100%;
+}
+.div7{
+    width: 100%;
+    height: 725px;
+    position: relative;
+    font-size: 1em;
+    font-weight: lighter;
+    text-align: center;
+}
+.div7_1{
+    width: 50%;
+    height: 80%;
+    position: relative;
+    float: left;
+    top: 10%;
+}
+.div7_1_1{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    float: right;
+    margin-right: 2.5%;
+    border: 1px solid rgb(184, 182, 182);
+}
+.div7_2{
+    height: 80%;
+    width: 50%;
+    position: relative;
+    float: left;
+    top: 10%;
+}
+.div7_2_1{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    float: left;
+    margin-left: 10%;
+
+}
+.div8{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background-color:#141414;
+    font-size: 1em;
+    font-weight: lighter;
+    text-align: center;
+}
+.div8_1{
+    width: 24%;
+    height: 100%;
+    float: left;
+}
