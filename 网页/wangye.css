@@ -8,11 +8,11 @@ h1{
     font-weight: lighter;
     font-size: 3em;
     letter-spacing: 1px;
-    margin: 0 auto;  /*不太明白什么意思*/
+    margin: 0 auto;  
 }
 .div1{
     background-image: url("images01/前端学院设计图_01.png");
-    position: relative;/*不太明白为啥要相对位置*/
+    position: relative;
     width: 100%;
     height: 989px;
     font-weight: lighter;
@@ -80,14 +80,14 @@ h1{
     color: white;
 }
 .div1_3_2_1{
-    width: 35%; /* 宽和高是相对于上一个div？*/
+    width: 35%; 
     height: 100%;
     position: relative;
     border: 1px rgb(184, 182,182 ) solid;
     margin-right: 5%;
-    float: left;/* 为啥浮动左边但实际上看着在右边呢*/
+    float: left;
     color: rgb(218, 214, 214);
-    font-size: large;/* 字体变大？*/
+    font-size: large;
 }
 input[type="text"]{
     background: none;
@@ -95,7 +95,7 @@ input[type="text"]{
 .div1_3_2_2{
     width: 16%;
     height: 100%;
-    position: relative; /* 相对，绝对分不清怎么用*/
+    position: relative; 
     float: left;
     color: black;
     background-color: white;
